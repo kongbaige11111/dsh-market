@@ -1,0 +1,98 @@
+{
+  "format": 1,
+  "title": {
+    "en": "kongbaige11111's DSH plugins",
+    "zh": "kongbaige11111 的 DSH 插件"
+  },
+  "description": {
+    "en": "DeepSeek Harness bundles: desktop-pet enhancements, QQ bridge, affection, reminders.",
+    "zh": "给 DeepSeek Harness 用的插件：桌宠增强、QQ 互通、好感度养成、定时提醒。"
+  },
+  "metadata": {
+    "categories": {
+      "desktop": {
+        "title": {
+          "en": "Desktop",
+          "zh": "桌面"
+        }
+      },
+      "chat": {
+        "title": {
+          "en": "Chat & IM",
+          "zh": "聊天与 IM"
+        }
+      }
+    },
+    "labels": {
+      "ui": {
+        "title": {
+          "en": "Interface",
+          "zh": "界面"
+        }
+      },
+      "qq": {
+        "title": {
+          "en": "QQ",
+          "zh": "QQ"
+        }
+      },
+      "pet": {
+        "title": {
+          "en": "Desktop pet",
+          "zh": "桌宠"
+        }
+      }
+    },
+    "sortKeys": {}
+  },
+  "plugins": [
+    {
+      "name": "dsh-pet-plus",
+      "title": {
+        "en": "Desktop pet plus",
+        "zh": "桌宠增强"
+      },
+      "description": {
+        "en": "Extends dsh-pet: QQ (NapCat/OneBot 11) chat bridge, affection & feeding, water/sit-up reminders, right-click menu actions and notification sounds.",
+        "zh": "给 dsh-pet 加 QQ（NapCat / OneBot 11）互通、好感度养成与喂食、喝水/久坐/番茄钟提醒、右键菜单互动与提示音。"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9ImRzaC1wZXQtcGx1cyI+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwIiB5MT0iMCIgeDI9IjEiIHkyPSIxIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjN2FjOWZmIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzRmNmJmZiIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3QgeD0iMyIgeT0iMyIgd2lkdGg9IjU4IiBoZWlnaHQ9IjU4IiByeD0iMTUiIGZpbGw9InVybCgjZykiLz4KICA8ZyBmaWxsPSIjZmZmIj4KICAgIDxlbGxpcHNlIGN4PSIzMiIgY3k9IjQxIiByeD0iMTIuNSIgcnk9IjEwLjUiLz4KICAgIDxlbGxpcHNlIGN4PSIxNy41IiBjeT0iMjgiIHJ4PSI1LjQiIHJ5PSI2LjYiIHRyYW5zZm9ybT0icm90YXRlKC0xOCAxNy41IDI4KSIvPgogICAgPGVsbGlwc2UgY3g9IjI3IiBjeT0iMjEuNSIgcng9IjUuNCIgcnk9IjYuOSIvPgogICAgPGVsbGlwc2UgY3g9IjM3LjUiIGN5PSIyMS41IiByeD0iNS40IiByeT0iNi45Ii8+CiAgICA8ZWxsaXBzZSBjeD0iNDciIGN5PSIyOC41IiByeD0iNS4yIiByeT0iNi40IiB0cmFuc2Zvcm09InJvdGF0ZSgxOCA0NyAyOC41KSIvPgogIDwvZz4KICA8Y2lyY2xlIGN4PSI0OC41IiBjeT0iMTYuNSIgcj0iNi4yIiBmaWxsPSIjZmY2YjhhIi8+CiAgPHBhdGggZD0iTTQ4LjUgMTMuMmMxLjUgMCAyLjUgMS4zIDIuNSAyLjYgMCAyLTIuNSA0LTIuNSA0cy0yLjUtMi0yLjUtNGMwLTEuMyAxLTIuNiAyLjUtMi42eiIgZmlsbD0iI2ZmZiIvPgo8L3N2Zz4K",
+      "author": "kongbaige11111",
+      "homepage": "https://github.com/kongbaige11111/dsh-pet-plus#readme",
+      "repository": {
+        "url": "https://github.com/kongbaige11111/dsh-pet-plus"
+      },
+      "metadata": {
+        "category": "desktop",
+        "labels": [
+          "ui",
+          "qq",
+          "pet"
+        ],
+        "keywords": [
+          "desktop-pet",
+          "qq",
+          "onebot",
+          "napcat",
+          "affection",
+          "reminder",
+          "cordis"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1793194251,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/kongbaige11111/dsh-pet-plus",
+            "commit": "985d96bea5b331df4dfad68eec24a61d5a3ad385"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.2"
+          }
+        }
+      ]
+    }
+  ]
+}
